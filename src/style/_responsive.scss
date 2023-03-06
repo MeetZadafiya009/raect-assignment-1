@@ -1,0 +1,72 @@
+@media screen and (max-width:1400px) {
+    .header{
+        .main-heading{
+            font-size: 2.2rem;
+        }
+    }
+}
+@media screen and (max-width:1200px) {
+    .header {
+        .nav-menu{
+            .logo{
+                width: 90%;
+            }
+        }
+        .img-div {
+            img {
+                width:50%;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .header{
+        .nav-menu{
+            .logo{
+                width: 150%;
+            }
+        }
+        .img-div {
+            img {
+                width:45%;
+            }
+        }
+        .bg-img{
+            img{
+                width: 93%;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .header{
+        .menu{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .header{
+        .img-div {
+            img {
+                width:40%;
+            }
+        }
+        .hero-part{
+            height: 60vh;
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .header{
+        .main-heading{
+            font-size:1.8rem ;
+        }
+    }
+    .services {
+        .text-alignment {
+            text-align: center !important;
+        }
+    }
+}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.header {
+  font-family: "Roboto", sans-serif !important;
+  border: none !important;
+  position: relative;
+  height: 100vh;
+}
+.header .div1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.header .div1 img {
+  width: 65%;
+}
+.header .div2 {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header .div2 img {
+  width: 60%;
+}
+.header .div3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header .div3 img {
+  width: 65%;
+}
+.header .div4 {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.header .div4 img {
+  width: 60%;
+}
+.header .img-div {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5rem;
+}
+.header .img-div img {
+  width: 70%;
+}
+.header .bg-img {
+  position: absolute;
+  bottom: 0;
+  z-index: -10;
+}
+.header .bg-img img {
+  width: 85%;
+}
+.header .menu li a {
+  color: black;
+}
+.header .menu li a:hover {
+  color: aqua;
+}
+.header .main-heading {
+  font-size: 3rem;
+}
+.header .main-text {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+}
+.header .hero-part {
+  height: 90vh;
+}
+.header .nav-menu .menu-toggle {
+  width: 40%;
+  background-color: white !important;
+  border: none;
+}
+.header .nav-menu .menu-toggle:focus {
+  border: none;
+  box-sizing: none;
+  outline: none;
+}
+.header .nav-menu .logo {
+  width: 85%;
+}
+.header .nav-menu .menu-bar-icon {
+  width: 100%;
+}
+
+.clients .client-heading {
+  border-bottom: 1px solid black;
+}
+
+.footer .footer-container {
+  background-color: #BFDBFF;
+}
+.footer .footer-menu {
+  list-style: none;
+  list-style-position: outside;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.footer .footer-menu li {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.footer .footer-menu li img {
+  width: 16px;
+  height: 16px;
+}
+.footer .footer-menu li .google-icon {
+  background-color: white;
+  border: 1px solid white;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+}
+.footer .footer-menu li a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+@media screen and (max-width: 1400px) {
+  .header .main-heading {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header .nav-menu .logo {
+    width: 90%;
+  }
+  .header .img-div img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header .nav-menu .logo {
+    width: 150%;
+  }
+  .header .img-div img {
+    width: 45%;
+  }
+  .header .bg-img img {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header .img-div img {
+    width: 40%;
+  }
+  .header .hero-part {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header .main-heading {
+    font-size: 1.8rem;
+  }
+  .services .text-alignment {
+    text-align: center !important;
+  }
+}/*# sourceMappingURL=style.css.map */

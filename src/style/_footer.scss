@@ -1,0 +1,32 @@
+.footer {
+    .footer-container {
+        background-color: $footer-color;
+    }
+    .footer-menu {
+        list-style: none;
+        list-style-position: outside;
+        font-family: $roboto-font;
+        font-weight: 400;
+        li {
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+            .google-icon{
+                background-color: white;
+                border: 1px solid white;
+                width: 23px;
+                height: 23px;
+                border-radius: 50%;
+
+            }
+            a {
+                text-decoration: none;
+                color: black;
+                text-align:left;
+            }
+        }
+    }
+}

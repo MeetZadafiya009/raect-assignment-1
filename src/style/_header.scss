@@ -1,0 +1,97 @@
+.header{
+    font-family: $roboto-font !important;
+    border: none !important;
+    position: relative;
+    height: 100vh;
+    .div1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        img{
+            width: 65%;
+        }
+    }
+    .div2{
+        display: flex;
+        justify-content: end;
+        img{
+            width: 60%;
+        }
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .div3{
+        img{
+            width: 65%;
+        }
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .div4{
+        display: flex;
+        justify-content: end;
+        img{
+            width: 60%;
+        }
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .img-div{
+        position: absolute;
+        bottom: 0;
+        margin-left:5rem;
+        img{
+            width: 70%;
+        }
+    }
+    .bg-img{
+        position: absolute;
+        bottom: 0;
+        z-index: -10;
+        img{
+            width: 85%;
+        }
+    }
+    .menu{
+        li{
+            a{
+                color: black;
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+    }
+    .main-heading{
+        font-size: 3rem;
+    }
+    .main-text{
+        font-size: 1rem;
+        font-family: $roboto-font;
+        font-size: 400;
+    }
+    .hero-part{
+        height: 90vh;
+    }
+    .nav-menu{
+        .menu-toggle{
+            width:40%;
+            background-color: white !important;
+            border: none;
+            &:focus{
+                border: none;
+                box-sizing: none;
+                outline: none;
+            }
+        }
+        .logo{
+            width: 85%;
+        }
+        .menu-bar-icon{
+            width: 100%;
+        }
+    }
+}
