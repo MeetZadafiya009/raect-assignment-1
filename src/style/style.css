@@ -80,7 +80,8 @@ body {
 }
 .header .nav-menu .menu-toggle {
   width: 40%;
-  background-color: white !important;
+  position: relative;
+  border-radius: 15px;
   border: none;
 }
 .header .nav-menu .menu-toggle:focus {
@@ -97,6 +98,23 @@ body {
 
 .clients .client-heading {
   border-bottom: 1px solid black;
+}
+
+.engagament {
+  position: relative;
+}
+.engagament .engagament-cloud {
+  position: absolute;
+}
+.engagament .engagament-cloud img {
+  width: 60%;
+}
+
+.commuication {
+  position: relative;
+}
+.commuication .commuication-cloud {
+  position: absolute;
 }
 
 .footer .footer-container {

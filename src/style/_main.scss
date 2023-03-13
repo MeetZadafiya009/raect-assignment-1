@@ -1,5 +1,70 @@
 .clients{
+    position: relative;
     .client-heading{
         border-bottom: 1px solid black;
+    }
+    .clients-cloud{
+        position: absolute;
+        img{
+            width: 80%;
+        }
+    }
+}
+.engagament{
+    position: relative;
+    .engagament-cloud{
+        img{
+            width: 60%;
+        }
+        position: absolute;
+        z-index: -10;
+    }
+}
+.commuication{
+    position: relative;
+    .commuication-cloud{
+        img{
+            width: 60%;
+        }
+        right: 0;
+        position: absolute;
+    }
+}
+.facilitation{
+    position: relative;
+    .facilitation-cloud{
+        position: absolute;
+        img{
+            width: 70%;
+        }
+    }
+}
+.traning{
+    position: relative;
+    .training-cloud{
+        position: absolute;
+        right: 0;
+        img{
+            width: 70%;
+        }
+    }
+}
+.teams{
+    position: relative;
+    .teams-cloud{
+        position: absolute;
+        img{
+            width: 60%;
+        }
+    }
+}
+.project{
+    position: relative;
+    .project-cloud{
+        position: absolute;
+        right: 0;
+        img{
+            width: 60%;
+        }
     }
 }

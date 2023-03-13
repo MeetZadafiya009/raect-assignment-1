@@ -79,7 +79,8 @@
     .nav-menu{
         .menu-toggle{
             width:40%;
-            background-color: white !important;
+            position: relative;
+            border-radius: 15px;
             border: none;
             &:focus{
                 border: none;

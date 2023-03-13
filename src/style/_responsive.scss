@@ -1,68 +1,178 @@
 @media screen and (max-width:1400px) {
-    .header{
-        .main-heading{
+    .header {
+        .main-heading {
             font-size: 2.2rem;
         }
     }
 }
+
 @media screen and (max-width:1200px) {
+    .engagament-cloud {
+        img {
+            width: 50% !important;
+        }
+    }
+
+    .commuication-cloud {
+        img {
+            width: 40% !important;
+        }
+    }
+
+    .facilitation-cloud {
+        img {
+            width: 50% !important;
+        }
+    }
+
+    .training-cloud {
+        position: absolute;
+
+        img {
+            width: 50% !important;
+        }
+    }
+
+    .teams-cloud {
+        img {
+            width: 40% !important;
+        }
+    }
+
+    .project-cloud {
+        img {
+            width: 40% !important;
+        }
+    }
+
     .header {
-        .nav-menu{
-            .logo{
+        .nav-menu {
+            .logo {
                 width: 90%;
             }
         }
+
         .img-div {
             img {
-                width:50%;
+                width: 50%;
             }
         }
     }
 }
+
 @media screen and (max-width:992px) {
-    .header{
-        .nav-menu{
-            .logo{
+    .header {
+        .nav-menu {
+            .logo {
                 width: 150%;
             }
         }
+
         .img-div {
             img {
-                width:45%;
+                width: 45%;
             }
         }
-        .bg-img{
-            img{
+
+        .bg-img {
+            img {
                 width: 93%;
             }
         }
     }
 }
-@media screen and (max-width:768px){
-    .header{
-        .menu{
+
+@media screen and (max-width:768px) {
+    .header {
+        .menu {
             flex-direction: column;
             text-align: center;
         }
     }
 }
+
 @media screen and (max-width:992px) {
-    .header{
+    .engagament-cloud {
+        img {
+            width: 35% !important;
+        }
+    }
+
+    .commuication-cloud {
+        img {
+            width: 30% !important;
+        }
+    }
+
+    .facilitation-cloud {
+        img {
+            width: 35% !important;
+        }
+    }
+
+    .training-cloud {
+        position: absolute;
+
+        img {
+            width: 40% !important;
+        }
+    }
+
+    .teams-cloud {
+        img {
+            width: 32% !important;
+        }
+    }
+
+    .project-cloud {
+        img {
+            width: 35% !important;
+        }
+    }
+    .clients-cloud{
+        img{
+            width: 60% !important;
+        }
+    }
+    .header {
         .img-div {
             img {
-                width:40%;
+                width: 40%;
             }
         }
-        .hero-part{
+
+        .hero-part {
             height: 60vh;
         }
     }
 }
+
 @media screen and (max-width:600px) {
-    .header{
-        .main-heading{
-            font-size:1.8rem ;
-        }
+    .engagament-cloud {
+        display: none !important;
+    }
+
+    .commuication-cloud {
+        display: none !important;
+    }
+
+    .facilitation-cloud {
+        display: none !important;
+    }
+
+    .training-cloud {
+        display: none !important;
+    }
+
+    .teams-cloud {
+        display: none !important;
+    }
+
+    .project-cloud {
+        display: none !important;
+    }
+    .clients-cloud{
+        display: none !important;
     }
     .services {
         .text-alignment {

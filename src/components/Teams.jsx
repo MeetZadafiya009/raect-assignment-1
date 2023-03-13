@@ -1,7 +1,10 @@
 import './../style/style.scss';
-const Teams=()=>{
+const Teams = () => {
     return (
-        <section>
+        <section className='teams'>
+            <div className='teams-cloud d-flex'>
+                <img src="./../images/Asset 5 2.png" alt="" />
+            </div>
             <div className='container pb-5'>
                 <div className='row py-3'>
                     <div className='col-12'>

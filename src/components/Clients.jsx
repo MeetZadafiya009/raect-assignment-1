@@ -2,6 +2,9 @@ import './../style/style.scss';
 const Clients = () => {
     return (
         <section className='clients'>
+            <div className='clients-cloud d-flex'>
+                <img src="./../images/Assets 9 1.png" alt="" />
+            </div>
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12">
